@@ -1,0 +1,122 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+input{
+    outline: none;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+    
+}
+.container{
+    width: 500px;
+    margin: 0 auto;
+    background-color:rgb(29, 205, 236);
+    text-align: center;
+    
+}
+.parte-dados{
+    background-color: rgb(46, 75, 95);
+    margin-bottom: 10px;
+    width: 300px;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%,-50%);
+    text-align: start;
+    border-radius: 10px;
+    padding-bottom: 10px;
+   
+}
+.parte-inserir{
+    background-color: rgb(59, 121, 160);
+    border-radius: 10px;
+    width: 300px;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    
+    text-align: center;
+   
+}
+.parte-inserir input{
+    border-radius: 8px;
+    border-style: none;
+    background-color: rgb(243, 236, 236);
+    text-align: center;
+    font-weight: 400;
+    
+}
+.parte-inserir p{
+    font-size: 16px;
+    font-weight: 500;
+    
+}
+
+.parte-dados i{
+    color: green;
+    margin-right: 10px;
+}
+.parte-dados{
+    padding-top: 10px;
+}
+.parte-dados p{
+    
+    margin-left: 20px;
+    display: flex;
+    gap: 5px;
+    margin-bottom: 10px;
+   
+}
+#salario{
+    width: 100px;
+    background-color: rgb(31, 144, 189);
+    border-radius: 7px;
+    border-style: none;
+    color: white;
+    text-align: center;
+    
+}
+#salario::placeholder{
+    color: rgb(221, 216, 216);
+    font-size: 8px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.espacamento{
+    position: relative;
+    top: 10%;
+}
+.espacamento h1{
+    margin-bottom: 50px;
+    font-size: 20px;
+    color: rgb(37, 141, 37);
+}
+.visualizadores{
+    margin-top: 20px;
+    /* border: solid 1px grey; */
+    
+    background-color: rgb(65, 107, 134);
+}
+#btn-registro{
+    background-color: rgb(8, 100, 136);
+    color: rgb(120, 192, 240);
+    border: none;
+    padding: 7px;
+    border-radius: 10px;
+    margin-top: 15px;
+    font-weight: 500;
+}
+
+
+@media screen and (max-width:576px){
+    .container{
+        width: 100vw;
+        height: 100vh;
+        
+        
+    }
+}

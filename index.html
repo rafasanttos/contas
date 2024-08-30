@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="espacamento">
+            <h1>Contas do mês</h1>
+            <div class="parte-dados">
+                <p><i class="fa-solid fa-sack-dollar"></i>Salário<input type="number" id="salario" placeholder="Digite seu salário"></p>
+                <p><i class="fa-solid fa-filter-circle-dollar"></i>Saldo <button id="saldo" style="width:100px;height: 25px;border-radius: 7px;border-style: none;background-color: rgb(31, 144, 189);color: white;">?</button></p>
+            </div>
+            <div class="parte-inserir">
+                <p>Descrição da conta<input type="text"  id="descricao"></p>
+                <p> Valor à pagar R$<input type="number"  id="valorConta"></p>
+            </div>
+            <button id="btn-registro">REGISTRAR CONTA</button>
+            <div class="visualizadores  ">
+                <pre id="visualizador"></pre>
+                <pre id="totalfinal"></pre>
+            </div>
+        </div>
+    </div>
+
+<script src="script.js"></script>
+</body>
+</html>
